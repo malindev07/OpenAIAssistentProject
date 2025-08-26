@@ -1,0 +1,19 @@
+2025-08-26 18:18:17,021 - src.api - INFO - main:log_info:32 - Response: 200 for GET /health/ready
+2025-08-26 18:20:02,187 - src.api - INFO - main:log_info:32 - Response: 200 for GET /health/ready
+2025-08-26 18:20:06,572 - src.api - INFO - main:log_info:32 - Response: 200 for GET /health/ready
+2025-08-26 18:20:17,152 - src.api - INFO - main:log_info:32 - Response: 200 for GET /health
+2025-08-26 18:35:43,649 - src.api - INFO - Response: 404 for GET /
+2025-08-26 18:35:43,818 - src.api - INFO - Response: 404 for GET /favicon.ico
+2025-08-26 18:35:47,926 - src.api - INFO - Response: 404 for GET /d
+2025-08-26 18:35:51,776 - src.api - INFO - Response: 200 for GET /docs
+2025-08-26 18:35:52,610 - src.api - INFO - Response: 200 for GET /openapi.json
+2025-08-26 18:35:56,685 - src.api - INFO - Response: 200 for GET /health
+2025-08-26 18:36:18,014 - src.api - INFO - Response: 200 for GET /health
+2025-08-26 19:12:04,700 - src.api - INFO - Response: 200 for GET /health
+2025-08-26 20:05:53,254 - src.api - INFO - Response: 404 for GET /
+2025-08-26 20:05:55,698 - src.api - INFO - Response: 404 for GET /d
+2025-08-26 20:06:01,294 - src.api - INFO - Response: 200 for GET /health
+2025-08-26 20:06:38,548 - src.api - INFO - Response: 200 for GET /health
+2025-08-26 20:07:16,481 - src.api - INFO - Response: 404 for GET /
+2025-08-26 20:07:19,739 - src.api - INFO - Response: 404 for GET /d
+2025-08-26 20:07:25,008 - src.api - INFO - Response: 200 for GET /health

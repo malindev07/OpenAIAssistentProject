@@ -1,0 +1,8 @@
+[app]
+name = "AI Assistant"
+version = "1.0.0"
+
+
+[logging]
+console_log_level = "INFO"
+file_log_level = "DEBUG"
