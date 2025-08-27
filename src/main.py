@@ -1,13 +1,16 @@
+import json
 import os
+from typing import List, Dict
 
 import uvicorn
 
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, WebSocket, WebSocketDisconnect
 from dotenv import load_dotenv
 
 from config.config import settings
 from src.api.health.handlers import health_router
+from src.api.webscoket.routes import ws_router
 from src.domain.logger.logger import setup_logging, get_logger
 
 load_dotenv()
@@ -28,6 +31,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan, version=settings.app_version, title=settings.app_name)
 app.include_router(health_router)
+app.include_router(ws_router)
 
 
 @app.middleware("http")

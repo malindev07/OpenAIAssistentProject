@@ -14,7 +14,8 @@ with open(CONFIG_FILE, "r") as f:
 
 class Settings(BaseSettings):
     # настройки из env
-    openai_api_key: str
+    voicekit_api_key: str
+    voicekit_secret_key: str
     host: str
     port: int
     reload: bool
